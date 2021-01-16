@@ -1,0 +1,109 @@
+body{
+    background-color: #1e2140;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.tittle{
+    display:flex;
+    justify-content:center;
+    margin-top: 5vh;
+}
+
+.menu{
+    display: flex;
+    justify-content:center;
+}
+
+.menu-list{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    list-style: none;
+    width: 30vw;
+    height: 5vh;
+    padding: 3px;
+    border-radius: 20px;
+    background-color:#151a32;
+}
+
+.menu-list-item{
+    justify-self: stretch;
+    align-self: stretch;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 20px;
+    color: #5d617c;
+}
+
+/*ESTADO DE LA NAVEGACION*/
+
+.active{
+    color: white;
+    font-weight: bold;
+}
+
+.active_red{
+    background-color: #f86f6e;
+}
+
+.active_lightBlue{
+    background-color: #78f0f5;
+}
+
+.active_purple{
+    background-color: #d981fa;
+}
+
+/*POMODORO*/
+
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.circulo{
+    margin-top: 10vh;
+    width: 45vh;
+    height: 45vh;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.spinner{
+    width: 44vh;
+    height: 44vh;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute
+}
+
+.timer{
+    margin-bottom: 10vh;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.status{
+    margin-bottom: -10vh;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.pointer{
+    cursor: pointer;
+}
