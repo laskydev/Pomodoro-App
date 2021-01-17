@@ -79,11 +79,12 @@ main{
 }
 
 .spinner{
-    width: 44vh;
-    height: 44vh;
-    border-radius: 50%;
-    border: 1px solid red;
-    position: absolute
+    width: 49vh;
+    height: 49vh;
+}
+
+.absolute{
+    position: absolute;
 }
 
 .timer{
